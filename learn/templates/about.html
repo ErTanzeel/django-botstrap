@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %} about {% endblock title %}
+{% block body %}
+<style>
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: inline-block;
+        height: 500px;
+        width: 332px;;
+    }
+
+    .ab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<div class="ab">
+    <h3>ABOUT US</h3>
+</div>
+<div class="container ">
+    <p>
+        Hey, i am parvez founder of English house,An English
+        teacher educates students in reading, writing,
+        speaking and studying literature in the
+        English language. English teachers typically work in both
+        middle and high schools,and they develop
+        lessons around literacy, writing, grammar, vocabulary and more.
+    </p>
+</div>
+
+{% endblock body %}
